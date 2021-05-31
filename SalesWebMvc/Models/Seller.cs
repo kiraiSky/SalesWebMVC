@@ -29,7 +29,7 @@ namespace SalesWebMvc.Models
             Departament = departament;
         }
 
-        public void addSales(SalesRecord sr)
+        public void AddSales(SalesRecord sr)
         {
             Sales.Add(sr);
         }
